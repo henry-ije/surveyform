@@ -1,0 +1,12 @@
+body{
+    background-color: aquamarine;
+    border-style: ridge;
+    border-width:20px;
+    margin: 20px;
+    padding:20px;
+}
+
+.head{
+    text-align:center;
+    color:red;
+}

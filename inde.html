@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">Every Dealer Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <div class="head">
+       <h1 id="description">Let us know how we can improve EDS</h1> 
+    </div>
+    <fo
+    rm action="/action_page.php" id="survey-form">
+<label for="name-label">Enter your name<input ></label><br><br>
+<label for="email-label">Enter your email<input></label><br><br>
+<label for="number-label">Enter your EDS number<input type="number" min="1" max="200" required></label><br><br>
+<label for="dropdown">Select your Occupation</label>
+<select>
+    <option>Student</option>
+    <option>Unemployed</option>
+    <option>Employed</option>
+    <option>Retired</option>
+</select><br><br>
+    <p>Did you enjoy the EDS project</p>
+    <input type="radio" name="yes" value="yes">Yes<br>
+    <input type="radio" name="no" value="no">No<br>
+    <input type="radio" name="maybe" value="maybe">Maybe
+
+    <p>What do you intend to do after this project</p>
+    <input type="checkbox" name="fedu" value="fedu">Further my Education<br>
+    <input type="checkbox" name="job" value="job">Get a job<br>
+    <input type="checkbox" name="skill" value="skill">Learn a skill<br>
+    <p>How can we improve EDS programme</p>
+    <textarea name="message" rows="10" cols="30"></textarea><br><br>
+    <button type="submit">SUBMIT</button>
+</form>
+
+
+</body>
+</html>
